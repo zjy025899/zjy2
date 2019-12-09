@@ -1,0 +1,24 @@
+*{margin: 0;padding: 0;}
+.margin{width:1070px;margin:0 auto;}
+body{background:#fdfdfd}
+
+header{height:100px;border-bottom:2px solid #ccc;}
+header img{float:left;display:block;margin:20px 0 0 20px;}
+header div.right{float:right;margin-top:20px;overflow: hidden;position: relative;}
+header div.right span{font:16px/20px "";color:#999;float:left;}
+header div.right span a{margin-left:10px;}
+header div.right .help{display:inline-block;width:100px;height:20px;text-align:center;font:12px/20px "";border:1px solid #ccc;border-radius: 5px;margin-left:20px;background:url(../imgs/te8.jpg) no-repeat 75px 2px;background-size: 15px;}
+
+.register{padding-bottom:100px;border-bottom:1px solid #ccc;}
+.box{width:330px;margin:0 auto;}
+.box h2{text-align:center;width:330px;height:50px;line-height: 50px;margin-top:30px;}
+.box input{display:block;width:330px;height:52px;margin:10px 0;text-indent: 20px;font-size:14px;}
+.box p{width:100%;font-size:12px;text-align:center;}
+.box .submit{border:0;width:334px;background:#d72226;color:#fff;font-size:16px;border-radius: 4px;cursor: pointer;}
+.box .submit:hover{background:red}
+
+
+footer{padding-top:20px;}
+footer p{text-align: center;}
+
+

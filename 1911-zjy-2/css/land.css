@@ -1,0 +1,25 @@
+.margin{width: 1070px;margin: 0 auto;position: relative;}
+.top{height:40px;background: #eee;border: 1px solid #ccc;line-height: 40px;}
+.top img{width: 18px;height: 20px;}
+.top div.left{float: left;}
+.top div.right{float: right;}
+.top a.login{color: red;}
+.top a.address{margin-left: 20px;}
+.top a.news{margin-left: 20px;}
+.top a.mine{margin-right: 20px;}
+.top a.vip{margin-right: 10px;}
+header{height: 140px;}
+header img.logo{width: 140px;height: 140px;}
+header img.biaoyu{width: 160px;height: 90px;}
+header input{width: 500px;height: 40px;border-radius: 100px;border: 1px solid #ccc;text-indent: 30px;background:url(../imgs/te6.jpg) no-repeat 460px 6px;background-size: 24px 26px;font-size:16px;margin-left:80p;}
+header a.car{display: inline-block;width: 120px;height: 20px;border: 1px solid #e2e2e2;padding: 9px 0 9px;text-align:center; font-size:16px;border-radius:100px;line-height: 20px;color:#333;background:url(../imgs/te7.jpg) no-repeat 14px 9px;background-size:18px;margin-left: 30px;}
+footer{width: 100%;}
+footer ul{display: flex;border-bottom: 1px solid #ccc;justify-content: space-between;}
+footer ul li{margin: 30px 0;overflow: hidden;}
+footer ul li b{font-size: 20px;}
+footer ul,bottom{padding-bottom:60px;border:0;}
+footer ul.bottom li h2{font:18px/24px "";padding-bottom: 20px;}
+footer ul.bottom li a{display: blockfont:14px/20px "";}
+footer ul.bottom li p{font:18px/24px "";padding: bottom 20px;}
+footer p{font:14px/24px "";text-align: center;padding:20px 0;}
+footer .img{width: 600px;margin: 0 auto;}
