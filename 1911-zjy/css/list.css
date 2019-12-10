@@ -1,0 +1,120 @@
+@charset "UTF-8";
+nav {
+  height: 40px; }
+ 
+.nav {
+  border-bottom: 2px solid #ff3c3c; }
+
+nav div {
+  width: 150px;
+  height: 40px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  background: #ff3c3c;
+  float: left;
+  cursor: pointer; }
+
+nav ul {
+  height: 100%;
+  float: left; }
+  nav ul li {
+    float: left;
+    line-height: 40px;
+    margin: 0 20px;
+    font-size: 16px; }
+    nav ul li a:hover {
+      color: #ff3c3c; }
+
+.classify {
+  border: 2px solid #ff3c3c;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 9;
+  background: #fff;
+  left: 417px;
+  display: none; }
+  .classify .list {
+    width: 163px;
+    height: 210px;
+    border-right: 1px solid #ccc;
+    float: left;
+    margin: 10px 0;
+    margin-left: 12px; }
+    .classify .list p {
+      font: 16px/24px "黑体";
+      font-weight: 800;
+      color: #000;
+      text-indent: 10px;
+      margin: 8px 0; }
+    .classify .list ul li {
+      overflow: hidden; }
+      .classify .list ul li span {
+        display: inline-block;
+        width: 81px;
+        font: 14px/20px "";
+        text-indent: 10px;
+        float: left;
+        margin: 5px 0; }
+        .classify .list ul li span a:hover {
+          color: #ff3c3c; }
+  .classify .classify .telist {
+    border-right: 0; }
+
+.active {
+  display: block; }
+
+.list {
+  height: 100%; }
+  .list .title {
+    text-align: center;
+    font: 30px/50px "黑体";
+    width: 300px;
+    margin: 20px auto;
+    background: #ff3c3c;
+    color: #fff;
+    border-radius: 40px; }
+  .list ul.shopList {
+    overflow: hidden;
+    margin-top: 10px; }
+    .list ul.shopList li {
+      width: 212px;
+      border: 1px solid #eee;
+      float: left;
+      background: #fff; }
+      .list ul.shopList li a {
+        display: block;
+        width: 214px; }
+      .list ul.shopList li img {
+        display: block;
+        width: 150px;
+        height: 150px;
+        margin: 20px auto; }
+      .list ul.shopList li p {
+        width: 170px;
+        margin: 10px auto;
+        text-align: center;
+        font: 16px/18px "";
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis; }
+      .list ul.shopList li p.price {
+        text-align: center; }
+      .list ul.shopList li span.price {
+        color: #ff3c3c;
+        font: 16px/20px "";
+        font-weight: 800; }
+      .list ul.shopList li span.oPrice {
+        text-decoration: line-through;
+        font: 14px/18px ""; }
+      .list ul.shopList li input {
+        display: block;
+        width: 100px;
+        text-align: center;
+        font: 16px/24px "";
+        margin: 10px auto;
+        background: #ff3c3c;
+        color: #fff;
+        border: 0; }
