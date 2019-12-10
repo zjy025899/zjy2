@@ -11,7 +11,7 @@ $(function () {
                 removeCookie("data");
                 location.href = "./index.html"
             }
-        })
+        })  
     }else{
         $(".top").load("http://localhost/1911-zjy/land.html .topW")
     }
