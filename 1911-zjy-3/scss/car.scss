@@ -1,0 +1,18 @@
+nav{height:40px;}
+
+.nav {border-bottom:2px solid red;}
+nav div{width:150px;height:40px;font-size:18px;text-align: center;line-height: 40px;color:#fff;background:red;float:left;cursor: pointer;}
+nav ul{height:100%;float:left;}
+nav ul li{float:left;line-height:40px;margin:0 20px;font-size:16px;}
+nav ul li a:hover{color:red;}
+
+.classify{border:2px solid red;overflow:hidden;box-sizing:border-box;position: absolute;z-index:9;background:#fff;left:417px;display:none;}
+.classify .list{width:163px;height:210px;border-right:1px solid #ccc;float:left;margin:10px 0;margin-left:12px;}
+.classify .telist{border-right:0;}
+.classify .list p{font:16px/24px "黑体";font-weight:800;color:#000;text-indent: 10px;margin:8px 0;}
+.classify .list ul li{overflow:hidden;}
+.classify .list ul li span{display:inline-block;width:81px;font:14px/20px "";text-indent: 10px;float:left;margin:5px 0;}
+.active{display:block;}
+.classify .list ul li span a:hover{color:#ff3c3c};
+
+.shopCar{height:500px;border:1px solid #000;}
