@@ -1,0 +1,27 @@
+*{margin: 0;padding: 0;}
+.margin{width:1070px;margin:0 auto;}
+body{background:#fdfdfd}
+  
+header{height:100px;border-bottom:2px solid #ccc;}
+header img{float:left;display:block;margin:20px 0 0 20px;}
+header div.right{float:right;margin-top:20px;overflow: hidden;position: relative;}
+header div.right span{font:16px/20px "";color:#999;float:left;}
+header div.right span a{margin-left:10px;}
+header div.right .help{display:inline-block;width:100px;height:20px;text-align:center;font:12px/20px "";border:1px solid #ccc;border-radius: 5px;margin-left:20px;background:url(../imgs/te8.jpg) no-repeat 75px 2px;background-size: 15px;}
+
+.login{background:#fdfdfd;overflow: hidden;}
+.login img{width:510px;height:315px;margin:30px 0 0 30px;float:left;}
+.login .box{float:right;margin:30px 30px 0 0;width:330px;}
+.login .box .top{overflow: hidden;width:330px;height:30px;line-height: 30px;}
+.login .box .top span{float:left;font-size:14px;}
+.login .box .top a{float:right;text-decoration:none;border:0;font-size:12px;}
+.login .box form.landing{width:330px;}
+.login .box form.landing input{width:330px;height:54px;font-size: 14px;margin-top:10px;text-indent:15px;}
+.login .box form.landing a{display:block;text-align:right;margin:5px 0;}
+.login .box form.landing input.sub{color:#fff;background:#ff3c3c;border:0;font-size:16px;}
+
+footer{padding-top:20px;}
+footer p{text-align: center;}
+
+
+

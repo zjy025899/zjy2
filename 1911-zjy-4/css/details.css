@@ -1,0 +1,37 @@
+nav{height:40px;}   
+
+.nav {border-bottom:2px solid red;}
+nav div{width:150px;height:40px;font-size:18px;text-align: center;line-height: 40px;color:#fff;background:red;float:left;cursor: pointer;}
+nav ul{height:100%;float:left;}
+nav ul li{float:left;line-height:40px;margin:0 20px;font-size:16px;}
+nav ul li a:hover{color:red;}
+
+.classify{border:2px solid red;overflow:hidden;box-sizing:border-box;position: absolute;z-index:9;background:#fff;left:150px;display:none;}
+.classify .list{width:163px;height:210px;border-right:1px solid #ccc;float:left;margin:10px 0;margin-left:12px;}
+.classify .telist{border-right:0;}
+.classify .list p{font:16px/24px "黑体";font-weight:800;color:#000;text-indent: 10px;margin:8px 0;}
+.classify .list ul li{overflow:hidden;}
+.classify .list ul li span{display:inline-block;width:81px;font:14px/20px "";text-indent: 10px;float:left;margin:5px 0;}
+.active{display:block;}
+.classify .list ul li span a:hover{color:#ff3c3c};
+
+
+.goods{}
+.goods p{font:14px/30px "黑体";margin:10px 0;}
+.goods p span{display:inline-block;cursor: pointer;padding-right:10px;}
+.goods p span:hover{color:red;}
+.goods .box {overflow: hidden;}
+.goods .box .wrap{float:left;border:1px solid #ccc;position: relative;}
+.goods .box .wrap img{width:360px;height:360px;}
+.goods .box .wrap .small{width:100px;height:100px;position:absolute;left:0;top:0px;background:rgba(235, 227, 227, 0.6);z-index: 10;display:none;}
+.goods .box .big{width:360px;height:360px;position: absolute;left:400px;top:0;z-index: 5;display:none;}
+.goods .box .right{float:right;border:1px solid #ccc;padding:20px;width:600px;height:320px;position: relative;}
+.goods .box .right p.name{font:20px/36px "";}
+.goods .box .right span{font:16px/36px "";color:#ff3c3c;}
+.goods .box .right p.name{font:18px/24px '黑体';}
+.goods .box .right span.oPrice{text-decoration: line-through;font:14px/18px "";color:#000;}
+.goods .box .right span.size{display: inline-block;font:20px/36px "黑体";color:#000;}
+.goods .box .right i{display:inline-block;background:#eee;width:40px;height:40px;vertical-align: top;line-height: 40px;text-align:center;font-size:20px;border:1px solid #ccc;cursor: pointer;}
+.goods .box .right input{width:115px;height:40px;text-align:center;border:1px solid #ccc;font-size:20px;}
+.goods .box .right b{display:inline-block;width:200px;height:60px;border:1px solid #eee;font:25px/60px "";text-align:center;background:#ff3c3c;color:#fff;cursor: pointer;}
+.goods .box .right p.bottom{position: absolute;bottom:0;}
