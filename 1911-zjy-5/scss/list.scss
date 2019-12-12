@@ -1,0 +1,82 @@
+nav{height:40px;}
+$white:#fff;
+$hot:#ff3c3c;
+.nav {border-bottom:2px solid $hot;}
+nav{
+    div{
+        width:150px;height:40px;font-size:18px;text-align:center;line-height: 40px;color:$white;background:$hot;float:left;cursor: pointer;
+    }
+    ul{
+        height:100%;float:left;
+        li{
+            float:left;line-height:40px;margin:0 20px;font-size:16px;
+            a:hover{
+                color:$hot;
+            }
+        }
+    }
+}
+.classify{
+    border:2px solid $hot;overflow:hidden;box-sizing:border-box;position: absolute;z-index:9;background:$white;left:417px;display:none;
+    .list{
+        width:163px;height:210px;border-right:1px solid #ccc;float:left;margin:10px 0;margin-left:12px;
+        p{
+            font:16px/24px "黑体";font-weight:800;color:#000;text-indent: 10px;margin:8px 0;
+        }
+        ul{
+            li{
+                overflow:hidden;
+                span{
+                    display:inline-block;width:81px;font:14px/20px "";text-indent: 10px;float:left;margin:5px 0;
+                    a:hover{
+                        color:$hot;
+                    }
+                }
+            }
+        }
+    }
+    .classify .telist{
+        border-right:0;
+    }
+}
+.active{display:block;}
+.list{
+    height:100%;
+    .title{
+        text-align: center;font:30px/50px "黑体";width:300px;margin:20px auto;background:$hot;color:$white;border-radius:40px;
+    }
+    ul.shopList{
+        overflow: hidden;margin-top:10px;
+        li{
+            width:212px;border:1px solid #eee;float:left;background:$white;
+            a{
+                display:block;width:214px;
+            }
+            img{
+                display:block;width:150px;height:150px;margin:20px auto;
+            }
+            p{
+                width:170px;margin:10px auto;text-align:center;font:16px/18px "";white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+            }
+            p.price{
+                text-align:center;
+            }
+            span.price{
+                color:$hot;font:16px/20px "";font-weight:800;
+            }
+            span.oPrice{
+                text-decoration: line-through;font:14px/18px "";
+            }
+            input{
+                display: block;
+                width:100px;
+                text-align:center;
+                font:16px/24px "";
+                margin:10px auto;
+                background:$hot;
+                color:$white;
+                border:0;
+            }
+        }
+    }
+}
